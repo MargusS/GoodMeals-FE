@@ -8,12 +8,26 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 240, 240, 240;
+    --foreground-rgb: 25, 25, 25;
   }
 }
 
 body {
   background: rgb(var(--foreground-rgb));
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  border-radius: 50%;
+}
+
+.text1{
+  color: #3f48cc;
+}
+
+.text2{
+  color:#005555;
 }
 
 @layer utilities {
